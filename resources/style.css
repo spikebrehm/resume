@@ -1,5 +1,5 @@
 @page {
-  margin: 20pt 50pt;
+  margin: 20pt 50pt 10pt;
 }
 
 * {
@@ -26,6 +26,7 @@ h1 {
 h2 {
   font-size: 12pt;
   text-transform: uppercase;
+  margin-top: 8pt;
 }
 h3 {
   font-size: 10.5pt;
@@ -41,6 +42,8 @@ ul.address-list {
 }
 li.address-list-item {
   display: inline;
+  font-size: 10pt;
+  color: #666;
 }
 li.address-list-item::after {
   content: ' | ';
@@ -74,7 +77,15 @@ span.entry-title::after {
   content: ', ';
 }
 
-
 ul.entry-bullet-list {
   margin-left: 15pt;
+}
+
+p.gitUrl {
+  text-align: right;
+  color: #666;
+  font-size: 9pt;
+}
+p.gitUrl a {
+  color: #A4BE88;
 }
