@@ -24,6 +24,8 @@ content.style = style;
 // Render the template into HTML.
 var html = ejs.render(layout, {locals: content});
 
+fs.writeFileSync('resume.html', html);
+
 // Spawn a child process to render the PDF using Prince.
 var prince = spawn('prince', ['--input=html', '-', '-o resume.pdf']);
 prince.stdin.write(html);
