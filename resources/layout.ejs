@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<style type="text/css">
+			<%= style %>
+		</style>
+		<title><%= name %> - Resume</title>
+	</head>
+	<body>
+		<h1><%= name %></h1>
+		<ul class="address-list">
+		<% address.forEach(function(line){ %>
+		  <li class="address-list-item"><%= line %></li>
+		<% }) %>
+		  <li class="address-list-item email"><%= email %></li>
+		</ul>
+		
+		<ul class="section-list">
+		<% sections.forEach(function(section){ %>
+		  <li class="section-list-item">
+		    <h2><%= section.heading %></h2>
+		    <ul class="entry-list">
+		    <% section.entries.forEach(function(entry){ %>
+		      <li class="entry-list-item">
+		        <% if (entry.heading) { %>
+  		        <h3><%= entry.heading %></h3>
+		        <% } %>
+		        <% if (entry.location) { %>
+  		        <span class="entry-location"><%= entry.location %></span>
+  		        <br />
+		        <% } %>
+		        <% if (entry.title) { %>
+    		      <span class="entry-title"><%= entry.title %></span>
+    		    <% } %>
+		        <% if (entry.duration) { %>
+  		        <span class="entry-duration"><%= entry.duration %></span>
+		        <% } %>
+    		    <ul class="entry-bullet-list">
+    		    <% entry.bullets.forEach(function(bullet){ %>
+    		      <li class="entry-bullet-list-item"><%= bullet %></li>
+    		    <% }) %>
+    		    </ul>
+  		    </li>
+  		  <% }) %>
+  		  </ul>
+		  </li>
+		<% }) %>
+	  </ul>
+	</body>
+
+</html>

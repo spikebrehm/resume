@@ -1,0 +1,102 @@
+{
+  "name": "Alexander &quot;Spike&quot; Brehm",
+  "email": "ocelot@gmail.com",
+  "address": ["2035 15th Street Apt 1", "San Francisco, CA 94114"],
+  
+ "sections": [
+    {
+     "heading": "Building The Web",
+     "entries": [
+        {
+         "heading": "SunRun, Inc.",
+         "location": "San Francisco, CA",
+         "title": "Software Engineer, Front-end Systems",
+         "duration": "August 2009 &ndash; Present",
+         "bullets": [
+            "Named top 5% performer by President of 95-person company backed by Accel, Sequoia, Foundation.",
+            "Prototyped, built, and deployed Flapjack, a CMS for designing PDF sales brochures with dynamic content based on in-house pricing model, in 7 months under very tight deadline.  Called a game-changer by our executive team, a tool that will allow SunRun to scale business by 100%+ in 2011.",
+            "Frustrated by broken model of webapp development &mdash; integrating client, frontend &amp; backend, each in its own language.  Prototyping fat-client approach with SproutCore and REST-JSON for the next generation of our main revenue-generating app.",
+            "Built JavaScript, CSS &amp; YAML framework for keeping our jQuery UI dialogs DRY.  ",
+            "Re-implemented proprietary PHP MVC framework in Symfony (OSS PHP framework) and led adoption of jQuery from Prototype.",
+            "Integrated with Java backend using SOAP &amp; Hessian protocols.",
+            "Tested code with unit, integration, and Selenium tests in continuous integration environment.",
+            "Third full-time engineer on a team that has grown to seventeen."
+          ]
+        },
+        {
+         "heading": "Open Source Involvement",
+         "location": "The Interwebs &amp; San Francisco, CA",
+         "title": null,
+         "duration": "February 2010 &ndash; Present",
+         "bullets": [
+            "Frequent contributor to Apostrophe, an Open Source CMS plugin for Symfony.",
+            "Hosted first-ever Apostrophe meetup during Symfony Live conference, February 8, 2011.",
+            "Will be presenting how I built Flapjack on top of Apostrophe at SF Symfony Meetup, March 1, 2011.",
+            "Attending SproutCore webcast by Yehuda Katz (jQuery & Rails core member), Februrary 22, 2011."
+          ]
+        },
+        {
+         "heading": "Center for the Environmental Implications of Nanotechnology (CEINT)",
+         "location": "Durham, NC",
+         "title": "Research Associate",
+         "duration": "May 2009 &ndash; August 2009",
+         "bullets": [
+            "Conceptualized and built web-based data visualization tool for nanotechnology experiment.",
+            "Created interactive Ajaxy charts using jQuery and <canvas> tag.",
+            "Built XML-RPC API and LAMP backend to gather data from the field to store into MySQL."
+          ]
+        },
+        {
+         "heading": "Sixth Sense Designs, LLC",
+         "location": "Phoenix, AZ; Durham, NC",
+         "title": "Lead Developer",
+         "duration": "2005 &ndash; 2009",
+         "bullets": [
+            "Created web-based project management software on the LAMP stack."
+          ]
+        },
+        {
+         "heading": "Freelance Web Development",
+         "location": "Phoenix, AZ; Durham, NC",
+         "title": null,
+         "duration": "2001 &ndash; 2009",
+         "bullets": [
+            "Contracted to design and build websites since middle school."
+          ]
+        }
+      ]
+    },
+  
+    {
+     "heading": "The College Years",
+     "entries": [
+        {
+         "heading": "Duke University, Pratt School of Engineering",
+         "location": "Durham, NC",
+         "title": "B.S.E. Civil & Environmental Engineering",
+         "duration": "May 2009",
+         "bullets": [
+            "Earned a 3.55 GPA, Graduation with Departmental Distinction, Dean&rsquo;s List with Distinction while touring with two bands in 16 states and Canada, and releasing several albums.",
+            "National Merit Scholar."
+          ]
+        }
+      ]
+    },
+  
+    {
+      "heading": "Nights and Weekends",
+      "entries": [
+        {
+         "heading": null,
+         "location": null,
+         "title": null,
+         "duration": null,
+         "bullets": [
+            "Bassist in two gigging bands.",
+            "House, funk and disco aficionado; skier; cyclist."
+          ]
+        }
+      ]
+    }
+  ]
+}
